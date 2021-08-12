@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINK</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/dist/index.css">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <link rel="shortcut icon" href="/IMG/Logo_md.PNG" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <div class="nav">
+        <div class="mobile-menu">
+            <p>LINK</p>
+            <i class="btn fa fa-bars"></i>
+        </div>
+        <div class="menu">
+            <h1>LINK</h1>
+            <a href="#">Home</a>
+            <a href="#Services">Services</a>
+            <a href="#Introduce">Introduce</a>
+            <a href="#Contact">Contact</a>
+            <a href="">More</a>
+        </div>
+    </div>
+    <div class="container">
+        <!-- Services -->
+        <div class="services" id="Services">
+            <div class="link">
+                <div class="img">
+                    <img src="/IMG/short-link.png" alt="Short Link">
+                </div>
+                <div class="link-content">
+                    <h1>Shorten URL</h1>
+                    <p>The service automatically redirects your shortened URL to the correct, full-length web address,
+                        this just happens automatically.</p>
+                </div>
+                <div class="link-expand">
+                    <a class=" btn btn--animated">Start Now</a>
+                </div>
+            </div>
+            <div class="link">
+                <div class="img">
+                    <img src="/IMG/combine-link.png" alt="Combine Link">
+                </div>
+                <div class="link-content">
+                    <h1>Combine LINK</h1>
+                    <p>Are you sick of posting multiple URLs? Here, you can create a tailored MergeURL hassle-free
+                        without any user registration.</p>
+                </div>
+                <div class="link-expand">
+                    <a class="btn--animated btn ">Start Now </a>
+                </div>
+            </div>
+        </div>
+        <!-- Introduce -->
+        <div class="introduce" id="Introduce">
+            <div class="intro-img">
+                <img src="./IMG/links.png" alt="">
+            </div>
+            <div class="intro-content">
+                <h2>One short link, infinite possibilities.</h2>
+                <p>
+                    A short link is a powerful marketing tool when you use it carefully. It
+                    not only a link but also a medium between your customers and their destination. Link
+                    short allows you to collect a lot of data about your customers and their behavior. </p></div>
+        </div>
+        <!-- Footer -->
+        <div class="footer" id="Contact">
+            <div class="container">
+                <div class="footer-content">
+                    <p>LINK</p>
+                </div>
+                <div class="footer-logos">
+                    <i class="fa fa-facebook" ></i>
+                    <i class="fa fa-youtube" ></i>
+                    <i class="fa fa-linkedin" ></i>
+                    <i class="fa fa-instagram" ></i>
+                    <i class="fa fa-twitter" ></i>
+                </div>
+            </div>
+            <div class="footer-footer">
+                <p>Coppyright@ <script>document.write(new Date().getFullYear())</script>. All right reserved.</p>
+            </div>
+            
+        </div>
+    </div>
+
+</body>
+<script>
+    $(function () {
+        $('.btn').click(function () {
+            $('.menu').toggleClass('active');
+        });
+    });
+</script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+</html>
